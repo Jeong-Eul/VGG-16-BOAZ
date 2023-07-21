@@ -25,15 +25,12 @@ class VGG(nn.Module):
     def __init__(self, features, num_classes=1000, init_weights=True):
         super(VGG, self).__init__()
         self.features = features
-        self.classifier = nn.Sequential(
-            nn.Linear(512 * 7 * 7, 4096),
-            nn.ReLU(True),
-            nn.Dropout(),
-            nn.Linear(4096, 4096),
-            nn.ReLU(True),
-            nn.Dropout(),
-            nn.Linear(4096, num_classes),
-        )
+        
+        #### 여기에 코드를 입력하세요 ! ####
+        # vgg net에서 FC layer 를 구성하는 겁니다
+        # VGG NET의 마지막 CONV 후 나오는 FEATURE MAP의 사이즈는7 X 7 X 512 입니다.
+        # nn.Linear, nn.ReLU, nn.Dropout 을 이용하세요
+    
         if init_weights:
             self._initialize_weights()
 
