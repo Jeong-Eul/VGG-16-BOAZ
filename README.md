@@ -8,7 +8,7 @@ D & E 멘토멘티 스터디
 첫 시간에 가상환경 설정 방법에 대해 배웠죠?  
 
 이를 이용해서 BOAZ16 이라는 가상환경을 만드세요  
-
+<a href='https://www.notion.so/OT-d0144e9702d44bfbaa2a1749a4ff73ea'>(가상환경 만드는 방법 노션)</a>  
 제가 드린 git link를 가지고 본인의 환경에 clone 하세요  
 
 필요한 라이브러리를 설치하기 위해 파일 내에 있는 requirements.txt를 설치하세요
